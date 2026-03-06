@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ronnie Barth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Serifa BT;
+      color: white;
+      font-size: 20px;
+      background-color: black;
+      background-image: url(https://files.catbox.moe/b064xo.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    a {
+      color: white;
+      text-decoration: dotted underline;
+      text-shadow: 1px 1px 3px black, 0 0 1em purple;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    ::selection {
+      color: purple;
+      background-color: black;
+    }
+
+    /* MAIN LAYOUT */
+    #container {
+      max-width: 1100px;
+      margin: 40px auto;
+      display: flex;              /* SIDE BY SIDE */
+      gap: 60px;                  /* Space between sidebar and main */
+    }
+
+    /* SIDEBAR */
+    #sidebar {
+      width: 220px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-header {
+      font-size: 40px;
+      margin-bottom: 30px;
+      color: white;
+    }
+
+    .sidebar-links {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;                  /* EVEN SPACING BETWEEN LINKS */
+    }
+
+    .sidebar-links a {
+      font-size: 30px;
+    }
+
+    /* MAIN CONTENT */
+    #main {
+      flex: 1;                    /* Takes remaining space */
+    }
+
+    .artwork {
+      margin-bottom: 50px;
+    }
+
+    .artwork img {
+      width: 550px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+
+    <!-- SIDEBAR -->
+    <div id="sidebar">
+      <div class="nav-header">
+        RONNIE BARTH
+      </div>
+
+      <div class="sidebar-links">
+        <a href="about.html"><img src= "https://files.catbox.moe/s11hqj.png"style = "width: 20px">About</a>
+        <a href="contact.html"><img src= "https://files.catbox.moe/t0p34u.png"style = "width: 20px">Contact</a>
+        <a href="paintings.html"><img src= "https://files.catbox.moe/s11hqj.png"style = "width: 20px">Paintings</a>
+        <a href="illustrations.html"><img src= "https://files.catbox.moe/t0p34u.png"style = "width: 20px">Illustrations</a>
+        <a href="exhibitions.html"><img src= "https://files.catbox.moe/s11hqj.png"style = "width: 20px">Exhibitions</a>
+        <a href="https://files.catbox.moe/4vnswz.jpg"><img src= "https://files.catbox.moe/t0p34u.png"style = "width: 20px">Shop</a>
+	<a href="home.html"><img src= "https://files.catbox.moe/s11hqj.png" style = "width: 20px">Home</a>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main">
+
+      <div class="artwork">
+       
+
+       
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
